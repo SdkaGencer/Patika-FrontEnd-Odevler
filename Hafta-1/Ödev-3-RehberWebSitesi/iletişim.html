@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim</title>
+  </head>
+  <body>
+    <h1 style="color:darkred">Kendi lezzet hikayenizi yazmaya hazır mısınız?</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkında.html">Hakkımızda</a></li>
+            <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+        </ul> 
+    </nav>
+    <div>
+      <h2>Bizimle İletişime Geçmek İçin:</h2>
+      <ul>
+        <li>
+          Adres:Lezzet Caddesi No: 45 Gurme Mahallesi, 12345 İstanbul, Türkiye
+        </li>
+        <li>Telefon: 0245 456 78 93</li>
+        <li>e-posta:lezzethikayesi@gmail.com</li>
+      </ul>
+    </div>
+    <div>
+        <h3>İletişim Formu</h3>
+      <form action="iletisimbilgileri.html" method="get">
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+          <div>
+            <label for="fullname">İsim</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+          <div>
+            <label for="email">E-posta</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">Telefon Numarası</label>
+            <input type="tel" id="phone" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>İletmek İstedeğiniz Mesaj</legend>
+            <textarea name="message" id="message"></textarea>
+        </fieldset>
+
+        <div>
+            <button type="submit">Kayıt ol</button>
+            <button type="reset">Temizle</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
