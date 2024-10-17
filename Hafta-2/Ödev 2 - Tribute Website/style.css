@@ -1,0 +1,99 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background-color: #4B5320;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#home {
+  text-align: center;
+  padding: 50px;
+  background: #4B5320;
+  color: #fff;
+}
+
+#home .hero-image {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#home blockquote {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 20px 0;
+  border-left: 4px solid #fff;
+  padding-left: 10px;
+}
+
+#info {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#info h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Eserler Bölümü Stili */
+#books {
+  padding: 50px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#books ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#books ul li {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #4B5320;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
