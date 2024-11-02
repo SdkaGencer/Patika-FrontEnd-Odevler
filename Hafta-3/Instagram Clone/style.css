@@ -1,0 +1,35 @@
+body {
+    background-color: #fafafa;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.like-btn,
+.comment-btn {
+    color: #262626;
+}
+
+.like-btn:hover,
+.comment-btn:hover {
+    color: #ed4956;
+}
