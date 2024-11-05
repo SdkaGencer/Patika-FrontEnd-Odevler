@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(32, 76, 122);
+}
+
+.container{
+    width:100%;
+    text-align: center;
+}
+
+img{
+    width:700px;
+    height:500px;
+}
+button{
+    padding:10px 20px;
+    background-color: rgb(75, 193, 232);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:75px;
+    height:75px;
+
+}
