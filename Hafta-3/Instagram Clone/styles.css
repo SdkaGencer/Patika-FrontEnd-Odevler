@@ -1,0 +1,41 @@
+/* Genel ayarlar */
+body {
+    background-color: #fafafa;
+    padding-top: 54px;
+  }
+  
+  .navbar {
+    height: 54px;
+    background-color: #fff;
+  }
+  
+  input::placeholder {
+    background: url("assets/search-icon.png") no-repeat center right;
+    background-size: 20px;
+    text-align: center;
+    color: gray;
+  }
+  
+  /* Hikayeler */
+  .story-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ff0066;
+  }
+  
+  .story-text {
+    font-size: 12px;
+  }
+  
+  /* Sağ panel */
+  .sticky-sidebar {
+    position: sticky;
+    top: 54px;
+  }
+  
+  .card-header, .card-footer {
+    background-color: #fff;
+  }
+  
+  
