@@ -1,0 +1,99 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .todo-container {
+	width: 80%;
+	max-width: 600px;
+	margin: 50px auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+	text-align: center;
+	color: #333;
+  }
+  
+  .add-todo {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .add-todo input {
+	width: 75%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  .add-todo button {
+	width: 20%;
+	padding: 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .add-todo button:hover {
+	background-color: #45a049;
+  }
+  
+  .todo-list {
+	margin-top: 20px;
+  }
+  
+  .todo-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	background-color: #fafafa;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-btn, .edit-btn {
+	background-color: #f44336;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .delete-btn:hover, .edit-btn:hover {
+	background-color: #e53935;
+  }
+  
+  .filters {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+  
+  .filters button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #2196F3;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .filters button:hover {
+	background-color: #1976D2;
+  }
+  
